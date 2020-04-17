@@ -4,6 +4,7 @@ using DevExpress.XtraRichEdit;
 using DevExpress.XtraRichEdit.API.Native;
 using DevExpress.XtraRichEdit.Utils;
 using DevExpress.Office.Utils;
+using DevExpress.Portable;
 
 namespace RichEditLeftPadding {
     public partial class Form1 : Form {
@@ -28,11 +29,11 @@ namespace RichEditLeftPadding {
         }
 
         private void AdjustSimpleViewPadding() {
-            richEditControl1.Views.SimpleView.Padding = new Padding(0);
+            richEditControl1.Views.SimpleView.Padding = new PortablePadding(0);
         }
 
         private void AdjustDraftViewPadding() {
-            richEditControl1.Views.DraftView.Padding = new Padding(0);
+            richEditControl1.Views.DraftView.Padding = new PortablePadding(0);
         }
 
         private void AdjustParagraphIndent() {
