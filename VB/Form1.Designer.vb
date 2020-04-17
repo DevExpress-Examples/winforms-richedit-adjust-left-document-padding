@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace RichEditLeftPadding
+﻿Namespace RichEditLeftPadding
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -53,7 +51,8 @@ Namespace RichEditLeftPadding
 			Me.richEditControl1.Size = New System.Drawing.Size(734, 300)
 			Me.richEditControl1.TabIndex = 0
 			Me.richEditControl1.Text = "richEditControl1"
-'			Me.richEditControl1.DocumentLoaded += New System.EventHandler(Me.richEditControl1_DocumentLoaded);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.richEditControl1.DocumentLoaded += new System.EventHandler(this.richEditControl1_DocumentLoaded);
 			' 
 			' barManager1
 			' 
@@ -71,7 +70,12 @@ Namespace RichEditLeftPadding
 			Me.documentViewsBar1.DockCol = 0
 			Me.documentViewsBar1.DockRow = 0
 			Me.documentViewsBar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
-			Me.documentViewsBar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() { New DevExpress.XtraBars.LinkPersistInfo(Me.switchToSimpleViewItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.switchToDraftViewItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.switchToPrintLayoutViewItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.barButtonItem1)})
+			Me.documentViewsBar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {
+				New DevExpress.XtraBars.LinkPersistInfo(Me.switchToSimpleViewItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.switchToDraftViewItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.switchToPrintLayoutViewItem1),
+				New DevExpress.XtraBars.LinkPersistInfo(Me.barButtonItem1)
+			})
 			' 
 			' switchToSimpleViewItem1
 			' 
@@ -106,7 +110,8 @@ Namespace RichEditLeftPadding
 			Me.barButtonItem1.Caption = "Set paragraph indent"
 			Me.barButtonItem1.Id = 12
 			Me.barButtonItem1.Name = "barButtonItem1"
-'			Me.barButtonItem1.ItemClick += New DevExpress.XtraBars.ItemClickEventHandler(Me.barButtonItem1_ItemClick);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
 			' 
 			' Form1
 			' 
