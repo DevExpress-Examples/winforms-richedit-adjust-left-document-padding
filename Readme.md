@@ -19,7 +19,7 @@ This example illustrates how to adjust indent settings in code. You can change t
 * [Views in Rich Text Editor for WinForms](https://docs.devexpress.com/WindowsForms/18081/controls-and-libraries/rich-text-editor/visual-elements/views)
 * [Page Layout Examples](https://docs.devexpress.com/WindowsForms/5806/controls-and-libraries/rich-text-editor/examples#page-layout)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-richedit-adjust-left-document-padding&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-richedit-adjust-left-document-padding&~~~was_helpful=no)
 
